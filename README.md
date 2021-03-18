@@ -19,7 +19,7 @@ A KMM module built on top of Google fused location provider for Android and CLLo
 
 #### Install
 
-Built the KMM for a physical device or simulator iOS device from the root of this module using:
+Build the KMM for a physical device or simulator iOS device from the root of this module using:
 ```kotlin
 ./gradlew packForIphone
 ```
@@ -33,7 +33,7 @@ Add it as a framework dependency to the *.xcodeproj* file in x-code *General* se
 
 Create an instance of GeoLogger with empty constructor.
 
-Call the log function with 3 parameters: Any, long timestamp or nil, and extra string or mull.
+Call the log function with 3 parameters: Any, long timestamp or nil, and extra string or nil.
 
 
 ```swift
@@ -48,7 +48,7 @@ A line is shown in logs after the first HTTP post request; it seems something re
 
 #### Install
 
-Built the KMM for android from the root of this module using:
+Build the KMM for android from the root of this module using:
 ```kotlin
 ./gradlew publishToMavenLocal
 ```
